@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		389400862B70261C00809832 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 389400852B70261C00809832 /* main.cpp */; };
+		3894008E2B70264500809832 /* plink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3894008C2B70264500809832 /* plink.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		389400822B70261C00809832 /* plink */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = plink; sourceTree = BUILT_PRODUCTS_DIR; };
 		389400852B70261C00809832 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3894008C2B70264500809832 /* plink.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = plink.cpp; sourceTree = "<group>"; };
+		3894008D2B70264500809832 /* plink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = plink.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				389400852B70261C00809832 /* main.cpp */,
+				3894008C2B70264500809832 /* plink.cpp */,
+				3894008D2B70264500809832 /* plink.h */,
 			);
 			path = plink;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3894008E2B70264500809832 /* plink.cpp in Sources */,
 				389400862B70261C00809832 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
